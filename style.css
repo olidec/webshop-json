@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+}
+
+#article-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.article {
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    box-shadow: 0 0 5px darkgray;
+    width: 80%;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.article:hover {
+    box-shadow: 3px 3px 5px darkgray;
+}
+
+.article > h3 {
+    background-color: lightgray;
+    margin: 0;
+    padding: 0.5rem 1rem;
+}
+
+.article > .description {
+    padding: 1rem;
+}
