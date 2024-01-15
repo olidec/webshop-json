@@ -36,7 +36,7 @@ Dann können Sie einen Webbrowser mit der URL
 ## Aufgaben
 
 Sie sollen in diesem Projekt einen kleinen Webshop Schritt für Schritt aufbauen.
-Dafür können Sie den folgenden Aufgaben folgen.
+Dafür können Sie den folgenden Aufgaben folgen. Denken Sie daran rgelmässig und ausführlich commits zu setzen.
 
 ### Aufgabe 1
 
