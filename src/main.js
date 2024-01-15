@@ -14,7 +14,7 @@ function render(data, targetElement) {
 async function main() {
   const artList = document.getElementById("article-list")
 
-  const data = await jsonLoader("public/level-02.json")
+  const data = await jsonLoader("public/level-01.json")
 
   for (let i = 0; i < data.length; i++) {
     render(data[i], artList)
