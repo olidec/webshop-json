@@ -1,18 +1,12 @@
-# 04 Webshop
+# Webshop Miniprojekt
 
 In diesem Projekt möchten wir einen kleinen Webshop Schritt für Schritt
 aufbauen. Dabei konzentrieren wir uns auf die Darstellung von einem Datensatz.
 
-## Installieren
-
-Bevor Sie das Projekt klonen, installieren Sie
-[node.js](https://nodejs.org/en/download). Dieses Programm wird benötigt, um
-Bibliotheken einfach auf Ihrem Rechner zu installieren und um das Projekt
-auszuführen. Dadurch sollte der Code jeweils beim Speichern automatisch
-formatiert werden.
 
 ## Initialisieren
 
+Laden Sie die Projektdateien via github herunter (`CTRL-SHIFT-P` und dann `Git:Clone`). 
 Um das Projekt dann zu starten, öffnen Sie in VSCode ein Terminal
 (`CTRL+SHIFT+P` und dann `Terminal: Create new Terminal`). In diesem Terminal
 können Sie dann die folgenden Befehle ausführen:
@@ -65,7 +59,7 @@ Schauen Sie sich die Datei `index.html` und `src/main.js` an.
 
 ### Aufgabe 3
 
-Schauen Sie sich die Datei `src/main.js` an. Und versuchen Sie mit Codeium
+Schauen Sie sich die Datei `src/main.js` an. Und versuchen Sie
 herauszufinden was unbekannte Stellen im Code machen. Formulieren Sie dann
 eigene Kommentare.
 
