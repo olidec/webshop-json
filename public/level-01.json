@@ -2,5 +2,12 @@
     {
         "title": "Cup",
         "description": "You can drink water out of it."
+    },
+    {
+        "title": "Plate",
+        "description": "You can eat food off of it."
+    },
+    {
+        "title": "Bowl"
     }
 ]

@@ -4,17 +4,17 @@ h1 {
 
 #article-list {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 2rem;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 .article {
     border: 1px solid darkgray;
     border-radius: 5px;
     box-shadow: 0 0 5px darkgray;
-    width: 80%;
+    width: 40%;
     transition: box-shadow 0.2s ease-in-out;
 }
 
@@ -31,3 +31,39 @@ h1 {
 .article > .description {
     padding: 1rem;
 }
+
+.article > .price {
+    background-color: rgb(176, 233, 251);
+    width: 50px;
+    min-width: max-content;
+    padding: 3px;
+    padding-left: 5px;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.article > .price.reduced {
+    background-color: rgb(252, 216, 216);
+}
+
+.reduced-text {
+    color: red;
+    animation: blink 1s infinite;
+}
+    
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
